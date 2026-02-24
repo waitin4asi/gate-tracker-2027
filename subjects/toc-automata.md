@@ -119,8 +119,6 @@ For all s ∈ L with |s| ≥ p,
 | Intersection | ✅ | ❌ | ✅ | ✅ |
 | Complement | ✅ | ❌ | ✅ | ❌ |
 | Difference | ✅ | ❌ | ✅ | ❌ |
-
-### Decidability Table
 | Problem | Decidable? |
 |---|:---:|
 | DFA equivalence | ✅ Yes |
@@ -138,7 +136,7 @@ For all s ∈ L with |s| ≥ p,
 |---|---|
 | All NFA have fewer states than DFA | NFA-to-DFA can exponentially increase states |
 | DPDA = NPDA | DPDA ⊂ NPDA; DPDA accepts only deterministic CFLs |
-| RE closed under intersection | RE NOT closed under intersection (use CFL pumping lemma) |
+| RE closed under intersection | RE NOT closed under intersection (closure properties differ from CFL) |
 | Halting is semi-decidable | Halting is RE but not recursive (semi-decidable = recognizable) |
 | NP-complete = NP-hard | NP-complete = NP ∩ NP-hard |
 | All undecidable problems are RE | Some problems are not even RE (e.g., complement of halting) |

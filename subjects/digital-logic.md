@@ -116,7 +116,7 @@ Cout = AB + Cin(A ⊕ B)
 ```
 Q(t+1) = JQ' + K'Q
 
-J=0, K=0 → Reset (Q → 0)   [No: Hold Q]
+J=0, K=0 → Hold  (Q → Q)
 J=0, K=1 → Reset (Q → 0)
 J=1, K=0 → Set   (Q → 1)
 J=1, K=1 → Toggle (Q → Q')
